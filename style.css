@@ -1,0 +1,86 @@
+*{
+    margin :0;
+    padding: 0; 
+}
+body{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.navbar{
+    height: 15vh;
+    width: 100vw; 
+    position: relative;
+}
+.navbar h1{
+    position: absolute;
+    width: 20vw ;
+    height: 10vh;
+    float: left; 
+    top: 4vh; 
+    left: 3vw;
+    color: #6c63ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar ul{
+     position: absolute;
+     float: left;
+     top: 5vh;
+     right: 6vw; 
+}
+.navbar ul li{ 
+    display: inline-block; 
+} 
+.navbar ul li a{ 
+    padding: 20px;
+    color: #5a6170;
+    text-decoration: none; 
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar ul li a:hover{  
+    background-color: #6c63ff;
+    color: #fff;
+    border-radius: 12px;
+    border: 0px;
+}
+.home{ 
+   height: 85vh;
+   width: 100vh;
+   position: relative; 
+}
+img{ 
+    position: absolute;
+    width: 550px;  
+    left: 55vw;
+}
+.me{ 
+    position: absolute; 
+    height: 60vh;
+    width: 45vw; 
+}
+.me .hi{
+    position: absolute;
+    color: #6c63ff;
+    top: 22vh;
+    left: 15vw; 
+    font-weight: 700;
+}
+.me .name{
+    position: absolute;
+    color: #5a6170;
+    top: 30vh;
+    left: 15vw; 
+    font-weight: 200;
+}  
+.me .fil{
+    position: absolute;
+    color: #6c63ff;
+    top: 38vh;
+    left: 15vw; 
+    font-weight: 200;
+}  
+@keyframes example {
+    0%   {background-color:#ffffff;  }
+    50%  {background-color:#dadfea; } 
+  }
